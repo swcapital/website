@@ -15,15 +15,17 @@ const Home: React.FC = () => {
         <AuvText>
           <TextLoop interval={1500} springConfig={{ stiffness: 180, damping: 16 }}>
           <span>Indices</span>
-          <span>Structured Products</span>
           <span>Options</span>
           <span>Active Strategies</span>
           <span>Liquidity Mining</span>
+          <span>Structured Products</span>
+          <span>Smart Beta</span>
           </TextLoop>{" "}
         </AuvText>
         <br/>
         for DeFi. Brought to you by a partner you can trust.
       </HomeTitle>
+      <HomeHeaderCTA to='/dpi'>View Products</HomeHeaderCTA>
     </div>
   )
 }
@@ -39,7 +41,7 @@ const HomeTitle = styled.p`
 const AuvText = styled.span`
   font-size: 72px;
   line-height: 1;
-  color: #03c75e;
+  color: #ffea1d;
   font-weight: 600;
   @media (max-width: 768px) {
     font-size: 36px;
@@ -47,8 +49,8 @@ const AuvText = styled.span`
 `
 
 const HomeHeaderCTA = styled(NavLink)`
-  color: white;
-  background-color: #03c75e;
+  color: #202124;
+  background-color: #FFEA1D;
   font-size: 18px;
   font-weight: 600;
   text-decoration: none;

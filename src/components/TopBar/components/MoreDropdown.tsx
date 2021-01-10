@@ -26,17 +26,17 @@ const CustomOption = (props: any) => {
   )
 }
 
-const ProductsDropdown: React.FC = () => {
+const MoreDropdown: React.FC = () => {
   const theme = useTheme()
   const { pathname } = useLocation()
 
   const dropdownSelectStyles = useMemo(() => {
-    const isResourcesRouteActive = pathname === '/about' || pathname === '/news'
+    const isResourcesRouteActive = pathname === '/about' || pathname === '/education'
 
     return {
       control: (styles: any) => ({
         ...styles,
-        width: 130,
+        width: 110,
         background: 'none',
         border: 'none',
       }),
@@ -44,7 +44,7 @@ const ProductsDropdown: React.FC = () => {
         ...styles,
         'color': isResourcesRouteActive
           ? theme.colors.primary.light
-          : theme.colors.grey[500],
+          : theme.colors.grey[300],
         'fontWeight': 600,
         'cursor': 'pointer',
         '&:hover': {
@@ -61,12 +61,12 @@ const ProductsDropdown: React.FC = () => {
         ...styles,
         'color': isResourcesRouteActive
           ? theme.colors.primary.light
-          : theme.colors.grey[500],
+          : theme.colors.grey[300],
         'cursor': 'pointer',
         '&:hover': {
           color: isResourcesRouteActive
             ? theme.colors.primary.light
-            : theme.colors.grey[500],
+            : theme.colors.grey[600],
         },
       }),
       indicatorSeparator: () => ({}),
@@ -81,20 +81,15 @@ const ProductsDropdown: React.FC = () => {
   return (
     <Select
       isSearchable={false}
-      value={{ label: 'Resources' } as any}
+      value={{ label: 'More' } as any}
       options={[
         {
           value: 'about',
           label: 'About',
         },
         {
-          value: 'news',
-          label: 'News',
-        },
-        {
-          value: 'docs',
-          label: 'Docs',
-          link: 'https://docs.indexcoop.com/',
+          value: 'education',
+          label: 'Education',
         },
       ]}
       components={{
@@ -138,4 +133,4 @@ const StyledOutboundLink = styled.a`
   }
 `
 
-export default ProductsDropdown
+export default MoreDropdown

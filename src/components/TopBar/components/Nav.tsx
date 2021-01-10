@@ -1,8 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
-import ProductsDropdown from './ProductsDropdown'
-import ResourcesDropdown from './ResourcesDropdown'
+import MoreDropdown from './MoreDropdown'
 import IndexFundsDropdown from './IndexFundsDropdown'
 import InvestmentStrategiesDropdown from './InvestmentStrategiesDropdown'
 import SunCoinDropdown from './SunCoinDropdown'
@@ -13,21 +12,15 @@ const Nav: React.FC = () => {
       <StyledLink exact activeClassName='active' to='/indices'>
       Indices
       </StyledLink>
-      <StyledLink exact activeClassName='active' to='/products'>
-      Products
-      </StyledLink>
       <StyledLink exact activeClassName='active' to='/strategies'>
       Strategies
       </StyledLink>
-      <StyledLinkAlt exact activeClassName='active' to='/token'>
+      <StyledLink exact activeClassName='active' to='/token'>
       Token
-      </StyledLinkAlt>
-      <StyledLinkAlt exact activeClassName='active' to='/education'>
-      Education
-    </StyledLinkAlt>
-      <StyledLinkAlt exact activeClassName='active' to='/about'>
-        About
-      </StyledLinkAlt>
+      </StyledLink>
+      <StyledLink exact activeClassName='active' to='/about'>
+      About
+      </StyledLink>
     </StyledNav>
   )
 }
@@ -47,7 +40,7 @@ const StyledLink = styled(NavLink)`
     color: ${(props) => props.theme.colors.grey[600]};
   }
   &.active {
-    color: ${(props) => props.theme.colors.primary.light};
+    color: ${(props) => props.theme.colors.highlightColor};
   }
 `
 
@@ -61,7 +54,7 @@ text-decoration: none;
   color: ${(props) => props.theme.colors.grey[600]};
 }
 &.active {
-  color: ${(props) => props.theme.colors.yellow};
+  color: ${(props) => props.theme.colors.highlightColor};
 }
 `
 

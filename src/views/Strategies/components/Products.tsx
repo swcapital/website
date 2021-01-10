@@ -11,32 +11,16 @@ const Products: React.FC = () => (
     
 
     <StyledContainer>
-      <StyledTypeText>DeFi</StyledTypeText>
+      <StyledTypeText>Actively Managed</StyledTypeText>
       <StyledCardRow>
-      <StyledCardContainer>
-      <Surface fill>
-        <StyledCardContent>
-          <StyledCardIcon src='https://index-dao.s3.amazonaws.com/owl.png' />
-          <StyledCardTitle>DeFi Index</StyledCardTitle>
-          <StyledCardDescription>
-            Earn INDEX tokens be staking Uniswap ETH/DPI LP tokens.
-          </StyledCardDescription>
-
-          <StyledOutboundLink href='/farm'>
-            View Product
-          </StyledOutboundLink>
-        </StyledCardContent>
-      </Surface>
-    </StyledCardContainer>
-
-    <Spacer />
+      
     
     
         <StyledCardContainer>
           <Surface fill>
             <StyledCardContent>
               <StyledCardIcon src='https://index-dao.s3.amazonaws.com/owl.png' />
-              <StyledCardTitle>Decentralized Exchange Index</StyledCardTitle>
+              <StyledCardTitle>BTC Long-Only Alpha</StyledCardTitle>
               <StyledCardDescription>
                 Earn INDEX tokens be staking Uniswap ETH/DPI LP tokens.
               </StyledCardDescription>
@@ -54,7 +38,7 @@ const Products: React.FC = () => (
           <Surface fill>
             <StyledCardContent>
               <StyledCardIcon src='https://index-dao.s3.amazonaws.com/alphafinance.png' />
-              <StyledCardTitle>DeFi Derivatives Index</StyledCardTitle>
+              <StyledCardTitle>ETH Long-Only Alpha</StyledCardTitle>
               <StyledCardDescription>
                 Earn leveraged yield in the ETH/DPI Pool by Alpha Homora.
               </StyledCardDescription>
@@ -74,231 +58,49 @@ const Products: React.FC = () => (
         <StyledCardContainer>
         <Surface fill>
           <StyledCardContent>
-            <StyledCardIcon src='https://index-dao.s3.amazonaws.com/alphafinance.png' />
-            <StyledCardTitle>DeFi Options Index</StyledCardTitle>
+            <StyledCardIcon src='https://index-dao.s3.amazonaws.com/owl.png' />
+            <StyledCardTitle>ETH/BTC Long-Only Alpha</StyledCardTitle>
             <StyledCardDescription>
-              Earn leveraged yield in the ETH/DPI Pool by Alpha Homora.
+              Earn INDEX tokens be staking Uniswap ETH/DPI LP tokens.
             </StyledCardDescription>
-
-            <StyledOutboundLink
-              href='https://homora.alphafinance.io/'
-              target='_blank'
-            >
-              View Product
-            </StyledOutboundLink>
-          </StyledCardContent>
-        </Surface>
-      </StyledCardContainer>
-
-      <Spacer />
-      
-      <StyledCardContainer>
-      <Surface fill>
-        <StyledCardContent>
-          <StyledCardIcon src='https://index-dao.s3.amazonaws.com/alphafinance.png' />
-          <StyledCardTitle>DeFi Derivatives Index</StyledCardTitle>
-          <StyledCardDescription>
-            Earn leveraged yield in the ETH/DPI Pool by Alpha Homora.
-          </StyledCardDescription>
-
-          <StyledOutboundLink
-            href='https://homora.alphafinance.io/'
-            target='_blank'
-          >
-            View Product
-          </StyledOutboundLink>
-        </StyledCardContent>
-      </Surface>
-    </StyledCardContainer>
-
-    <Spacer />
-        
-        <StyledCardContainer>
-        <Surface fill>
-          <StyledCardContent>
-            <StyledCardIcon src='https://index-dao.s3.amazonaws.com/alphafinance.png' />
-            <StyledCardTitle>DeFi Lending Index</StyledCardTitle>
-            <StyledCardDescription>
-              Earn leveraged yield in the ETH/DPI Pool by Alpha Homora.
-            </StyledCardDescription>
-
-            <StyledOutboundLink
-              href='https://homora.alphafinance.io/'
-              target='_blank'
-            >
-              View Product
-            </StyledOutboundLink>
-          </StyledCardContent>
-        </Surface>
-      </StyledCardContainer>
-
-      <Spacer />
-      
-      <StyledCardContainer>
-      <Surface fill>
-        <StyledCardContent>
-          <StyledCardIcon src='https://index-dao.s3.amazonaws.com/alphafinance.png' />
-          <StyledCardTitle>Cross-Chain Interoperability Index</StyledCardTitle>
-          <StyledCardDescription>
-            Earn leveraged yield in the ETH/DPI Pool by Alpha Homora.
-          </StyledCardDescription>
-
-          <StyledOutboundLink
-            href='https://homora.alphafinance.io/'
-            target='_blank'
-          >
-            View Product
-          </StyledOutboundLink>
-        </StyledCardContent>
-      </Surface>
-    </StyledCardContainer>
-
-    <Spacer />
-    
-    <StyledCardContainer>
-    <Surface fill>
-      <StyledCardContent>
-        <StyledCardIcon src='https://index-dao.s3.amazonaws.com/alphafinance.png' />
-        <StyledCardTitle>Asset Management Index</StyledCardTitle>
-        <StyledCardDescription>
-          Earn leveraged yield in the ETH/DPI Pool by Alpha Homora.
-        </StyledCardDescription>
-
-        <StyledOutboundLink
-          href='https://homora.alphafinance.io/'
-          target='_blank'
-        >
-          View Product
-        </StyledOutboundLink>
-      </StyledCardContent>
-    </Surface>
-  </StyledCardContainer>
-
-  <Spacer />
-        
-      
-      <StyledCardContainer>
-      <Surface fill>
-        <StyledCardContent>
-          <StyledCardIcon src='https://index-dao.s3.amazonaws.com/alphafinance.png' />
-          <StyledCardTitle>Algorithmic Stablecoin Index</StyledCardTitle>
-          <StyledCardDescription>
-            Earn leveraged yield in the ETH/DPI Pool by Alpha Homora.
-          </StyledCardDescription>
-
-          <StyledOutboundLink
-            href='https://homora.alphafinance.io/'
-            target='_blank'
-          >
-            View Product
-          </StyledOutboundLink>
-        </StyledCardContent>
-      </Surface>
-    </StyledCardContainer>
-
-    <Spacer />
-      
-      <StyledCardContainer>
-      <Surface fill>
-        <StyledCardContent>
-          <StyledCardIcon src='https://index-dao.s3.amazonaws.com/alphafinance.png' />
-          <StyledCardTitle>Social Token Index</StyledCardTitle>
-          <StyledCardDescription>
-            Earn leveraged yield in the ETH/DPI Pool by Alpha Homora.
-          </StyledCardDescription>
-
-          <StyledOutboundLink
-            href='https://homora.alphafinance.io/'
-            target='_blank'
-          >
-            View Product
-          </StyledOutboundLink>
-        </StyledCardContent>
-      </Surface>
-    </StyledCardContainer>
-    <Spacer />
-    
-    <StyledCardContainer>
-    <Surface fill>
-      <StyledCardContent>
-        <StyledCardIcon src='https://index-dao.s3.amazonaws.com/alphafinance.png' />
-        <StyledCardTitle>NFT Art Index</StyledCardTitle>
-        <StyledCardDescription>
-          Earn leveraged yield in the ETH/DPI Pool by Alpha Homora.
-        </StyledCardDescription>
-
-        <StyledOutboundLink
-          href='https://homora.alphafinance.io/'
-          target='_blank'
-        >
-          View Product
-        </StyledOutboundLink>
-      </StyledCardContent>
-    </Surface>
-  </StyledCardContainer>
-
-  <Spacer />
   
-  <StyledCardContainer>
-  <Surface fill>
-    <StyledCardContent>
-      <StyledCardIcon src='https://index-dao.s3.amazonaws.com/alphafinance.png' />
-      <StyledCardTitle>NFT Gaming Item Index</StyledCardTitle>
-      <StyledCardDescription>
-        Earn leveraged yield in the ETH/DPI Pool by Alpha Homora.
-      </StyledCardDescription>
-
-      <StyledOutboundLink
-        href='https://homora.alphafinance.io/'
-        target='_blank'
-      >
-        View Product
-      </StyledOutboundLink>
-    </StyledCardContent>
-  </Surface>
-</StyledCardContainer>
-
-<Spacer />
-
-    <Spacer />
-    <Spacer />
-        
-      </StyledCardRow>
-
+            <StyledOutboundLink href='/farm'>
+              View Product
+            </StyledOutboundLink>
+          </StyledCardContent>
+        </Surface>
+      </StyledCardContainer>
+  
       <Spacer />
-
-      <StyledTypeText>Volatility</StyledTypeText>
-
-      <StyledCardRow>
+        
         <StyledCardContainer>
         <Surface fill>
           <StyledCardContent>
-            <StyledCardIcon src='https://index-dao.s3.amazonaws.com/moonswap.png' />
-            <StyledCardTitle>Bitcoin Volatility Index</StyledCardTitle>
+            <StyledCardIcon src='https://index-dao.s3.amazonaws.com/alphafinance.png' />
+            <StyledCardTitle>LINK/ETH Long-Only Alpha</StyledCardTitle>
             <StyledCardDescription>
-              Provides long exposure to Bitcoin volatility.
+              Earn leveraged yield in the ETH/DPI Pool by Alpha Homora.
             </StyledCardDescription>
 
             <StyledOutboundLink
-              href='https://farm.moonswap.fi/eth/farms/DPI-ETH%20UNI-V2%20LP'
+              href='https://homora.alphafinance.io/'
               target='_blank'
             >
               View Product
             </StyledOutboundLink>
           </StyledCardContent>
         </Surface>
-      </StyledCardContainer>
+      </StyledCardContainer>  
       
-      
-      <Spacer />
+      <Spacer />    
       
       <StyledCardContainer>
       <Surface fill>
         <StyledCardContent>
           <StyledCardIcon src='https://index-dao.s3.amazonaws.com/moonswap.png' />
-          <StyledCardTitle>Ethereum Volatility Index</StyledCardTitle>
+          <StyledCardTitle>BTC On-Chain Beta</StyledCardTitle>
           <StyledCardDescription>
-            Provides long exposure to Ethereum volatility.
+            Provides long exposure to Bitcoin volatility.
           </StyledCardDescription>
 
           <StyledOutboundLink
@@ -310,22 +112,26 @@ const Products: React.FC = () => (
         </StyledCardContent>
       </Surface>
     </StyledCardContainer>
-    
+      
     <Spacer />
     <Spacer />
-    
+        
       </StyledCardRow>
 
       <Spacer />
+
+
+
+      <Spacer />
       
-      <StyledTypeText>Network Activity</StyledTypeText>
+      <StyledTypeText>Yield Enhancement</StyledTypeText>
 
       <StyledCardRow>
       <StyledCardContainer>
       <Surface fill>
         <StyledCardContent>
           <StyledCardIcon src='https://index-dao.s3.amazonaws.com/moonswap.png' />
-          <StyledCardTitle>Bitcoin Hashrate Index</StyledCardTitle>
+          <StyledCardTitle>USD High Yield Alpha</StyledCardTitle>
           <StyledCardDescription>
             Provides long exposure to Bitcoin volatility.
           </StyledCardDescription>
@@ -341,66 +147,14 @@ const Products: React.FC = () => (
     </StyledCardContainer>
     <Spacer />
     
-        <StyledCardContainer>
-        <Surface fill>
-          <StyledCardContent>
-            <StyledCardIcon src='https://index-dao.s3.amazonaws.com/moonswap.png' />
-            <StyledCardTitle>Ethereum Gas Index</StyledCardTitle>
-            <StyledCardDescription>
-              Provides long exposure to Bitcoin volatility.
-            </StyledCardDescription>
-  
-            <StyledOutboundLink
-              href='https://farm.moonswap.fi/eth/farms/DPI-ETH%20UNI-V2%20LP'
-              target='_blank'
-            >
-              View Product
-            </StyledOutboundLink>
-          </StyledCardContent>
-        </Surface>
-      </StyledCardContainer>
-      
-      
-      <Spacer />
-      
-      <StyledCardContainer>
-      <Surface fill>
-        <StyledCardContent>
-          <StyledCardIcon src='https://index-dao.s3.amazonaws.com/moonswap.png' />
-          <StyledCardTitle>Bitcoin Dominance Index</StyledCardTitle>
-          <StyledCardDescription>
-            Provides long exposure to Bitcoin volatility.
-          </StyledCardDescription>
-
-          <StyledOutboundLink
-            href='https://farm.moonswap.fi/eth/farms/DPI-ETH%20UNI-V2%20LP'
-            target='_blank'
-          >
-            View Product
-          </StyledOutboundLink>
-        </StyledCardContent>
-      </Surface>
-    </StyledCardContainer>
+       
     
-    <StyledCardContainer>
-    <Surface fill>
-      <StyledCardContent>
-        <StyledCardIcon src='https://index-dao.s3.amazonaws.com/moonswap.png' />
-        <StyledCardTitle>DeFi TVL Index</StyledCardTitle>
-        <StyledCardDescription>
-          Provides long exposure to Bitcoin volatility.
-        </StyledCardDescription>
-
-        <StyledOutboundLink
-          href='https://farm.moonswap.fi/eth/farms/DPI-ETH%20UNI-V2%20LP'
-          target='_blank'
-        >
-          View Product
-        </StyledOutboundLink>
-      </StyledCardContent>
-    </Surface>
-  </StyledCardContainer>
+    
       </StyledCardRow>      
+      
+      
+      
+      
 
     </StyledContainer>
   </div>

@@ -35,6 +35,7 @@ const createTheme = (): {
   
   const backgroundColor = hslToCssString(baseGreyColorDark)
 
+  const highlightColor = hslToCssString({ h: 54, s: 88, l: 50 })
 
   const yellow = hslToCssString({ h: 50, s: 55, l: 100 })
   const green = hslToCssString({ h: 147, s: 73, l: 44 })
@@ -57,6 +58,7 @@ const createTheme = (): {
     },
     white,
     green,
+    highlightColor,
     yellow,
     red,
     transparentColors,
@@ -72,6 +74,7 @@ const createTheme = (): {
     },
     white: whiteDark,
     green,
+    highlightColor,
     yellow,
     red,
     transparentColors,

@@ -26,7 +26,6 @@ import useLocalStorage from 'hooks/useLocalStorage'
 
 import About from 'views/About'
 import Indices from 'views/Indices'
-import StructuredProducts from 'views/StructuredProducts'
 import Strategies from 'views/Strategies'
 
 import Farm from 'views/Farm'
@@ -65,13 +64,10 @@ const App: React.FC = () => {
             <Route exact path='/indices'>
               <Indices />
             </Route>
-            <Route exact path='/products'>
-              <StructuredProducts />
-            </Route>
             <Route exact path='/strategies'>
             <Strategies />
             </Route>
-            <Route exact path='/Token'>
+            <Route exact path='/token'>
             <Token />
             </Route>
             <Route exact path='/dpi'>
