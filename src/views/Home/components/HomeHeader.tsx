@@ -25,7 +25,7 @@ const Home: React.FC = () => {
         <br/>
         for DeFi. Brought to you by a partner you can trust.
       </HomeTitle>
-      <HomeHeaderCTA to='/dpi'>View Products</HomeHeaderCTA>
+      <HomeHeaderCTA to='/indices'>View Products</HomeHeaderCTA>
     </div>
   )
 }
@@ -59,7 +59,8 @@ const HomeHeaderCTA = styled(NavLink)`
   border-radius: 4px;
   :hover {
     cursor: pointer;
-    background-color: #02bf5a;
+    background-color: #202124;
+    color: white;
   }
   @media (max-width: 768px) {
     font-size: 18px;

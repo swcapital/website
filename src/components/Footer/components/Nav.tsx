@@ -5,11 +5,10 @@ const Nav: React.FC = () => {
   return (
     <StyledNav>
       <StyledLink href="https://twitter.com/sw_capital">Twitter</StyledLink>
-      <StyledLink href="https://gov.indexcoop.com">Telegram</StyledLink>
-      <StyledLink href="https://discord.gg/RKZ4S3b">Member Discord</StyledLink>
-      <StyledLink href="https://index-dao.s3.amazonaws.com/index-logo-pack.zip" download>Support</StyledLink>
-      <StyledLink href="https://discord.gg/RKZ4S3b">Imprint</StyledLink>
-      <StyledLink href="https://discord.gg/RKZ4S3b">Privacy Policy</StyledLink>
+      <StyledLink href="https://t.me/sw_capital">Telegram</StyledLink>
+      <StyledLink href="https://twitter.com/sw_capital" download>Support</StyledLink>
+      <StyledLink href="https://twitter.com/sw_capital">Imprint</StyledLink>
+      <StyledLink href="https://twitter.com/sw_capital">Privacy Policy</StyledLink>
     </StyledNav>
   )
 }

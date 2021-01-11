@@ -36,7 +36,7 @@ const MarketData: React.FC = () => {
               </StyledDpiIconLabel>
               <StyledDpiTitle>SW Capital Token</StyledDpiTitle>
             </div>
-            <StyledViewMoreButton to='/swc'>
+            <StyledViewMoreButton to='/token'>
               View SW Capital Token ➔
             </StyledViewMoreButton>
           </StyledDpiSplitHeader>
