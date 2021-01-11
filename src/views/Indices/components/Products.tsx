@@ -25,7 +25,7 @@ const Products: React.FC = () => (
                 Earn INDEX tokens be staking Uniswap ETH/DPI LP tokens.
               </StyledCardDescription>
 
-              <StyledOutboundLink href='/farm'>
+              <StyledOutboundLink href='/dpi'>
                 View Product
               </StyledOutboundLink>
             </StyledCardContent>
@@ -44,8 +44,7 @@ const Products: React.FC = () => (
               </StyledCardDescription>
 
               <StyledOutboundLink
-                href='https://homora.alphafinance.io/'
-                target='_blank'
+                href='/dpi'
               >
                 View Product
               </StyledOutboundLink>
@@ -76,8 +75,7 @@ const Products: React.FC = () => (
             </StyledCardDescription>
 
             <StyledOutboundLink
-              href='https://farm.moonswap.fi/eth/farms/DPI-ETH%20UNI-V2%20LP'
-              target='_blank'
+              href='/dpi'
             >
               View Product
             </StyledOutboundLink>
@@ -98,8 +96,7 @@ const Products: React.FC = () => (
           </StyledCardDescription>
 
           <StyledOutboundLink
-            href='https://farm.moonswap.fi/eth/farms/DPI-ETH%20UNI-V2%20LP'
-            target='_blank'
+            href='/dpi'
           >
             View Product
           </StyledOutboundLink>
@@ -130,8 +127,7 @@ const Products: React.FC = () => (
         </StyledCardDescription>
 
         <StyledOutboundLink
-          href='https://farm.moonswap.fi/eth/farms/DPI-ETH%20UNI-V2%20LP'
-          target='_blank'
+          href='/dpi'
         >
           View Product
         </StyledOutboundLink>
